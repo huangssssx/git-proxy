@@ -1,0 +1,20 @@
+{
+  "name": "git-proxy",
+  "version": "1.0.0",
+  "description": "git command proxy",
+  "keywords":"git command proxy",
+  "scripts": {
+    
+  },
+  "author": "huangssssx",
+  "license": "ISC",
+  "bin": {
+    "gpr": "./bin/index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "execa": "^2.0.3",
+    "iconv-lite": "^0.5.0",
+    "inquirer": "^6.5.0"
+  }
+}
